@@ -214,3 +214,16 @@ div.flex-main-section{
 }
 
 
+/*mmedia query*/
+@media only screen and (max-width: 600px){
+	.grid-seccion-noticias {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		gap: 0px 10px;
+		font-size: 18px;
+		color: white;
+		margin-top: 20px;
+	  }
+
+	}

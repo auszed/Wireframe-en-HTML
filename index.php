@@ -12,39 +12,10 @@
     <!--contenedor de todo el contenido-->
     <div class="container">
     <!-- cabezera del contenido-->
-    <header class="header">
-        <!-- nav en php-->
-        <?php include 'footer.php';?>
-        <div class="top-header">
-            <div class="logo">
-                <img src="img/logo.png" alt="logotipo del site" >
-            </div>
-            <div class="social-icons">
-                <ion-icon name="logo-facebook"></ion-icon>
-                <ion-icon name="logo-instagram"></ion-icon>
-                <ion-icon name="logo-twitter"></ion-icon>
-            </div>
-        </div>
-        <div class="bottom-header">
-            <nav class="grid-container">    
-                <div class="Col-1 columnsNav">
-                    <h1>Quienes somos</h1>
-                </div>
-                <div class="Col-2 columnsNav">
-                    <h1>Comprar</h1>
-                </div>
-                <div class="Col-3 columnsNav">
-                    <h1>Servicios</h1>
-                </div>
-                <div class="Col-4 columnsNav">
-                    <h1>Ubicación</h1>
-                </div>
-                <div class="Col-5 columnsNav">
-                    <h1>Contactános</h1>
-                </div>
-            </nav>
-        </div>
-    </header>
+
+    <!-- nav en php-->
+    <?php include 'header.php';?>
+    
     <!-- seccion de noticias-->
     <section class="flex-grid">
         <div class="grid-seccion-noticias">
@@ -83,10 +54,7 @@
     </div>
     <!-- footer php-->
     <?php include 'footer.php';?>
-    <footer class="footer">
-        <h3>Contactanos</h3>
-        <h3>ooom ©</h3>
-    </footer>
+    
     </div>
 
 <!-- scripts añadidos al website-->
